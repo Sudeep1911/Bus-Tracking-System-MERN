@@ -1,0 +1,28 @@
+.bus-table-container {
+    margin-top: 20px;
+  }
+  
+  .bus-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .bus-table th,
+  .bus-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .bus-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .bus-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .bus-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
