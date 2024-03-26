@@ -1,5 +1,6 @@
-{
-      "S1": {
+[
+      {
+        "name":"S1",
         "type": "govt",
         "source": "Gandhipuram",
         "destination": "Singanallur",
@@ -10,7 +11,8 @@
           {"stage": "3", "place": "Singanallur"}
         ]
       },
-      "S2": {
+      {
+        "name":"S2",
         "type": "private",
         "source": "Peelamedu",
         "destination": "Ramanathapuram",
@@ -21,7 +23,8 @@
           {"stage": "3", "place": "Ramanathapuram"}
         ]
       },
-      "S3": {
+      {
+        "name":"S3",
         "type": "premium",
         "source": "Ukkadam",
         "destination": "Saravanampatti",
@@ -32,7 +35,8 @@
           {"stage": "3", "place": "Saravanampatti"}
         ]
       },
-      "S4": {
+      {
+        "name":"S4",
         "type": "private",
         "source": "Ganapathy",
         "destination": "Thudiyalur",
@@ -43,7 +47,8 @@
           {"stage": "3", "place": "Thudiyalur"}
         ]
       },
-      "S5": {
+      {
+        "name":"S5",
         "type": "govt",
         "source": "Ondipudur",
         "destination": "Sulur",
@@ -54,7 +59,8 @@
           {"stage": "3", "place": "Sulur"}
         ]
       },
-      "S6": {
+      {
+        "name":"S6",
         "type": "private",
         "source": "Podanur",
         "destination": "Pappanaickenpalayam",
@@ -65,7 +71,8 @@
           {"stage": "3", "place": "Pappanaickenpalayam"}
         ]
       },
-      "S7": {
+      {
+        "name":"S7",
         "type": "premium",
         "source": "Kuniyamuthur",
         "destination": "Peelamedu",
@@ -76,7 +83,8 @@
           {"stage": "3", "place": "Peelamedu"}
         ]
       },
-      "S8": {
+      {
+        "name":"S8",
         "type": "private",
         "source": "Saravanampatti",
         "destination": "Ganapathy",
@@ -86,7 +94,8 @@
           {"stage": "2", "place": "Ganapathy"}
         ]
       },
-      "S9": {
+      {
+        "name":"S9",
         "type": "govt",
         "source": "Perur",
         "destination": "Thudiyalur",
@@ -97,7 +106,8 @@
           {"stage": "3", "place": "Thudiyalur"}
         ]
       },
-      "S10": {
+      {
+        "name":"S10",
         "type": "premium",
         "source": "Peelamedu",
         "destination": "Podanur",
@@ -108,7 +118,8 @@
           {"stage": "3", "place": "Podanur"}
         ]
       },
-      "1": {
+      {
+        "name":"1",
         "type": "premium",
         "source": "Avarampalayam",
         "destination": "Maruthamalai",
@@ -121,7 +132,8 @@
           {"stage": "5", "place": "Maruthamalai"}
         ]
       },
-      "1A": {
+      {
+        "name":"1A",
         "type": "govt",
         "source": "Maruthamalai",
         "destination": "Pommanam Pirivu",
@@ -131,7 +143,8 @@
           {"stage": "2", "place": "Pommanam Pirivu"}
         ]
       },
-      "1B": {
+      {
+        "name":"1B",
         "type": "private",
         "source": "Maruthamalai",
         "destination": "Ondipudur",
@@ -145,7 +158,8 @@
           {"stage": "6", "place": "Ondipudur"}
         ]
       },
-      "1C": {
+      {
+        "name":"1C",
         "type": "govt",
         "source": "Ondipudur",
         "destination": "Vadavalli",
@@ -159,7 +173,8 @@
           {"stage": "6", "place": "Vadavalli"}
         ]
       },
-      "1D": {
+      {
+        "name":"1D",
         "type": "private",
         "source": "Ondipudur",
         "destination": "Vadavalli",
@@ -177,7 +192,8 @@
           {"stage": "10", "place": "Vadavalli"}
         ]
       },
-      "1E": {
+     {
+        "name":"1E",
         "type": "premium",
         "source": "Ondipudur",
         "destination": "Maruthamalai",
@@ -191,7 +207,8 @@
           {"stage": "6", "place": "Maruthamalai"}
         ]
       },
-      "13A": {
+      {
+        "name":"13A",
         "type": "govt",
         "source": "Ukkadam",
         "destination": "Kulathur",
@@ -204,7 +221,8 @@
           {"stage": "5", "place": "Kulathur"}
         ]
       },
-      "13C": {
+      {
+        "name":"13C",
         "type": "private",
         "source": "Cheran Colony",
         "destination": "Ukkadam",
@@ -215,7 +233,8 @@
           {"stage": "3", "place": "Ukkadam"}
         ]
       },
-      "14": {
+      {
+        "name":"14",
         "type": "premium",
         "source": "Gandhipuram",
         "destination": "Nathegoundenpudur",
@@ -228,7 +247,8 @@
           {"stage": "5", "place": "Nathegoundenpudur"}
         ]
       },
-      "14A": {
+      {
+        "name":"14A",
         "type": "govt",
         "source": "Gandhipuram",
         "destination": "Semmedu",
@@ -242,7 +262,8 @@
           {"stage": "6", "place": "Semmedu"}
         ]
       },
-      "14B": {
+      {
+        "name":"14B",
         "type": "private",
         "source": "Railway Station",
         "destination": "Molapalayam",
@@ -255,7 +276,8 @@
           {"stage": "5", "place": "Molapalayam"}
         ]
       },
-      "14C": {
+      {
+        "name":"14C",
         "type": "premium",
         "source": "Gandhipuram",
         "destination": "Sadivayal",
@@ -266,7 +288,8 @@
           {"stage": "3", "place": "Sadivayal"}
         ]
       },
-      "15": {
+      {
+        "name":"15",
         "type": "govt",
         "source": "Kuniamuthur",
         "destination": "Sivananda Mills",
@@ -278,7 +301,8 @@
           {"stage": "4", "place": "Sivananda Mills"}
         ]
       },
-      "15B": {
+      {
+        "name":"15B",
         "type": "private",
         "source": "Ukkadam",
         "destination": "Anjugam Nagar",
@@ -288,7 +312,8 @@
           {"stage": "2", "place": "Anjugam Nagar"}
         ]
       },
-      "16": {
+      {
+        "name":"16",
         "type": "premium",
         "source": "Kovilmedu",
         "destination": "Kalapatti",
@@ -301,7 +326,8 @@
           {"stage": "5", "place": "Kalapatti"}
         ]
       },
-      "16A": {
+      {
+        "name":"16A",
         "type": "govt",
         "source": "Velandipalayam",
         "destination": "Airport",
@@ -315,7 +341,8 @@
           {"stage": "6", "place": "Airport"}
         ]
       },
-      "16B": {
+      {
+        "name":"16B",
         "type": "private",
         "source": "Saibaba Colony",
         "destination": "Kalapatti",
@@ -328,7 +355,8 @@
           {"stage": "5", "place": "Kalapatti"}
         ]
       },
-      "16C": {
+      {
+        "name":"16C",
         "type": "premium",
         "source": "Telungupalayam",
         "destination": "Kalapatti",
@@ -337,7 +365,8 @@
           {"stage": "1", "place": "Kalapatti"}
         ]
       },
-      "18": {
+      {
+        "name":"18",
         "type": "govt",
         "source": "Rathinapuri",
         "destination": "Palathurai",
@@ -350,7 +379,8 @@
           {"stage": "5", "place": "Palathurai"}
         ]
       },
-      "19": {
+      {
+        "name":"19",
         "type": "private",
         "source": "Ukkadam",
         "destination": "Nanjundapuram",
@@ -362,7 +392,8 @@
           {"stage": "4", "place": "Nanjundapuram"}
         ]
       },
-      "19A": {
+      {
+        "name":"19A",
         "type": "premium",
         "source": "Saibaba Colony",
         "destination": "Vellalore",
@@ -375,7 +406,8 @@
           {"stage": "5", "place": "Vellalore"}
         ]
       },
-      "19C": {
+      {
+        "name":"19C",
         "type": "govt",
         "source": "Gandhipuram",
         "destination": "Sulur Airport",
@@ -388,7 +420,8 @@
           {"stage": "5", "place": "Sulur Airport"}
         ]
       },
-      "19D": {
+      {
+        "name":"19D",
         "type": "private",
         "source": "Gandhipuram",
         "destination": "Appanaickenpatti",
@@ -400,7 +433,8 @@
           {"stage": "4", "place": "Appanaickenpatti"}
         ]
       },
-      "19E": {
+      {
+        "name":"19E",
         "type": "premium",
         "source": "Ukkadam",
         "destination": "Appanaickenpatti",
@@ -413,7 +447,8 @@
           {"stage": "5", "place": "Appanaickenpatti"}
         ]
       },
-      "19F": {
+      {
+        "name":"19F",
         "type": "govt",
         "source": "Ukkadam",
         "destination": "Madapur",
@@ -423,7 +458,8 @@
           {"stage": "2", "place": "Madapur"}
         ]
       },
-      "2": {
+      {
+        "name":"2",
         "type": "private",
         "source": "Perur",
         "destination": "Cheran Managar",
@@ -437,7 +473,8 @@
           {"stage": "6", "place": "Cheran Manager"}
         ]
       },
-      "20": {
+      {
+        "name":"20",
         "type": "premium",
         "source": "Kanuvai",
         "destination": "Airport",
@@ -450,7 +487,8 @@
           {"stage": "5", "place": "Airport"}
         ]
       },
-      "20A": {
+      {
+        "name":"20A",
         "type": "govt",
         "source": "Gandhipuram",
         "destination": "Somanur",
@@ -463,7 +501,8 @@
           {"stage": "5", "place": "Somanur"}
         ]
       },
-      "21": {
+      {
+        "name":"21",
         "type": "private",
         "source": "Gandhipuram",
         "destination": "Kembanur",
@@ -475,7 +514,8 @@
           {"stage": "4", "place": "Kembanur"}
         ]
       },
-      "21A": {
+      {
+        "name":"21A",
         "type": "govt",
         "source": "Gandhipuram",
         "destination": "Narasipuram",
@@ -488,7 +528,8 @@
           {"stage": "5", "place": "Narasipuram"}
         ]
       },
-      "21B": {
+      {
+        "name":"21B",
         "type": "private",
         "source": "Town Hall",
         "destination": "Devarayapuram",
@@ -501,7 +542,8 @@
           {"stage": "5", "place": "Devarayapuram"}
         ]
       },
-      "22": {
+      {
+        "name":"22",
         "type": "premium",
         "source": "Sowripalayam",
         "destination": "Sugarcane Institute",
@@ -513,7 +555,8 @@
           {"stage": "4", "place": "Sugarcane Institute"}
         ]
       },
-      "22A": {
+      {
+        "name":"22A",
         "type": "govt",
         "source": "Maruthamalai",
         "destination": "Chinniyampalayam",
@@ -528,7 +571,8 @@
           {"stage": "7", "place": "Chinniyampalayam"}
         ]
       },
-      "23A": {
+      {
+        "name":"23A",
         "type": "private",
         "source": "Podanur",
         "destination": "Varadharajapuram",
@@ -541,6 +585,6 @@
           {"stage": "5", "place": "Varadharajapuram"}
         ]
       }
-    }
+]
   
   
