@@ -1,22 +1,22 @@
-// server/controllers/busController.js
+import express from 'express';
+import { getBuses } from './buses.js'; // Update the file path accordingly
 
-import { getBusCollection } from '../config/mongo';
+const app = express();
+const PORT = 3001; // Set the desired port number, should match the port in the URL
 
-export async function getAllBuses(req, res) {
-  try {
-    // Get the bus collection
-    const collection = await getBusCollection();
+// Define a route to retrieve buses
+app.get('/buses', async (req, res) => {
+    try {
+        const buses = await getBuses(); // Call the function directly, assuming it's an asynchronous function
+        console.log('Retrieved Buses:', buses); // Log the retrieved buses
+        res.status(200).json(buses); // Send the retrieved buses as JSON response
+    } catch (error) {
+        console.error('Error fetching buses:', error);
+        res.status(500).json({ message: 'Internal server error' });
+    }
+});
 
-    // Find all documents in the collection
-    const cursor = collection.find({});
-
-    // Convert cursor to array of documents
-    const buses = await cursor.toArray();
-
-    // Send response with the retrieved bus data
-    res.json(buses);
-  } catch (err) {
-    console.error("Error retrieving bus details:", err);
-    res.status(500).json({ error: "Internal server error" });
-  }
-}
+// Start the server
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
